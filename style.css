@@ -17,11 +17,10 @@ overflow-x:hidden;
 .navbar{
     height: 54px;
     width: 100vw;
-    position: fixed;
     background-color: #ffff;
     display: flex;
     justify-content: space-evenly;
-	
+    position: fixed;
 }
 .logo{
     padding: 15px 80px;
@@ -89,7 +88,7 @@ ul li a:hover{
 }
 
 .containner{
-    margin: 8px 200px;
+    margin: 5px 220px;
 }
 i{
     height: 50px;
@@ -108,7 +107,7 @@ border-bottom: blue;
     display: flex;
    gap: 20px;
    justify-content: space-around;
-   margin-top:60px;
+   
 }
 .col img{
     width: 267px;
@@ -259,49 +258,104 @@ html {
             font-size: 10px;
             font-weight: bolder;
           }
-         ul li{
+          ul li i{
+            padding: 1px;
+            font-size: 6px;
+        }
+        .leftmenu{
+            margin-right: 21px;
+        }
+        .rightmenu{
+            padding-right: 14px;
+        }
+
+
+        .imgslider {
+            width: 100%;
+            height: 342px;
+            border-radius: 14px;
+            border: 1px solid black;
+            box-shadow: 5px 10px #1a4496;
+          }
+
+          .containner {
+            margin: 17px 51px;
+          }
+          .containner ul{
+            display: flex;
+            gap: 30px;
+          }
+
+        ul li{
             display: inline-block;
             padding: 16px 1px;
          }
+         
          .containner ul li a {
             
-            font-size: 8px;
+            font-size: 11px;
           }
      .rightmenu ul li a{
         display: none;
-     }     
-         .containner{
-            display: inline;
-         }
-         .row{
-            display: block;
-            padding-left: 59px;
-         }
+     }   
+     .row{
+        display: block;
+        padding-left: 35px;
+     }  
+        
+     .secondcontainer{
+        position: relative;
+       bottom: 218px;
+     }
 
-         .newmaric {
-            padding: 57px;
-          }
+     .heading{
+        width: 300px;
+        height: 500px;
+     }
 
-          .heading{
-            position: relative;
-            right: 64px;
+     section{
+        margin-left: 24px;
+      }
+
+      .newmaric {
+        padding: 27px;
+      }
+     
+      .follow {
+        padding-left: 25px;
+      }
+      #flw {
+        font-size: 23px;
+        position: relative;
+        bottom: 280px;
+      }
+      #flw i{
+        color: rgb(68, 0, 255);
+      }
+
           
-          }
-          #flw {
-            font-size: 23px;
-            position: relative;
-            bottom: 280px;
-          }
-          footer{
-            position: relative;
-            bottom: 293px;
-          
-          }
-          .rows {
-            display: inline-block;
-            margin-left: 121px;
-          }
-        }
+       
+      footer{
+        position: relative;
+        bottom: 293px;
+        height: 1520px;
+        width: 307px;
+      }
+      .rows {
+        display: inline-block;
+        padding: 40px;
+      }
+     
+    }
+
+
+     
+
+        
+
+         
+
+      
 
 
 
