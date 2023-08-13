@@ -17,10 +17,11 @@ overflow-x:hidden;
 .navbar{
     height: 54px;
     width: 100vw;
+    position: fixed;
     background-color: #ffff;
     display: flex;
     justify-content: space-evenly;
-	position: fixed;
+	
 }
 .logo{
     padding: 15px 80px;
@@ -88,7 +89,7 @@ ul li a:hover{
 }
 
 .containner{
-    margin: 8px 370px;
+    margin: 8px 200px;
 }
 i{
     height: 50px;
